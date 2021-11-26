@@ -21,6 +21,7 @@ h2{
 #logo{
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu{
@@ -226,7 +227,7 @@ footer{
 #photo img{
     width: 100%;
 }
-/*------ media query -----*/
+/*------ media query for medium devices -----*/
 @media screen and (max-width: 1396px){
     #club-ethos{
         width: 65%;
@@ -254,5 +255,16 @@ footer{
 
     hr {
         display: none;
+    }
+}
+/*------ media query for small devices -----*/
+@media screen and (max-width: 943px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
