@@ -24,3 +24,7 @@ browser screen width available to it and the finished site will allow for three
 different screen widths to maintain the consistency of design and information
 presentation. 
 
+### Bug
+- (footer bug fix)add missing closing tag for social links in footer
+
+
