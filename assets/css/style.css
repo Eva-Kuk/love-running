@@ -227,6 +227,17 @@ footer{
 #photo img{
     width: 100%;
 }
+
+/* form */
+
+.form-section {
+    clear: both;
+    background: url("../images/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
 /*------ media query for medium devices -----*/
 @media screen and (max-width: 1396px){
     #club-ethos{
