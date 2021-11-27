@@ -4,12 +4,11 @@
 
 A live demo can be found https://eva-kuk.github.io/love-running/
 
-
 HOME PAGE
 
 ![home page Am I responsive](/assets/images/love-running-home.png)
 
-GELLERY PAGE
+GALLERY PAGE
 
 ![gallery page Am I responsive](/assets/images/love-running-gallery.png)
 
