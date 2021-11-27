@@ -17,43 +17,35 @@ h2{
     letter-spacing: 4px;
     color: #555555;
 }
-
 #logo{
     float: left;
     font-size: 280%;
     margin-left: 30px;
 }
-
 #menu{
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
 }
-
 #logo, #menu{
     line-height: 75px;
     display: flex;
     justify-content: end;
 }
-
 #menu li {
     float: right;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover{
     border-bottom: 1px solid #777777;
 }
-
 .active{
     border-bottom: 1px solid #777777;
 }
-
 #hero-image{
     height:600px;
     width: 100%;
@@ -63,14 +55,12 @@ h2{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 #hero-outer{
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -79,11 +69,9 @@ h2{
         transform: scale(1.1);
     }
 }
-
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
-
 #cover-text {
     font-size: 130%;
     font-family: Oswald;
@@ -103,46 +91,37 @@ h2{
 
     position: absolute;
 }
-
 #club-ethos{
     height: 600px;
 }
-
 #left-about{
     padding-top: 30px;
     width: 33%;
     float: left;
 }
-
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
-
 #center-about {
-
     margin: 0 auto;
-
 }
 hr {
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
 }
-
 .left-about-heading {
     float: right;
 }
 .right-about-heading {
     float: left;
 }
-
 .right-about-heading p,
 .right-about-heading h2 {
     text-align: right;
 }
-
 .left-about-heading,
 .right-about-heading {
     width: 50%;
@@ -201,13 +180,10 @@ footer{
 
 .social-networks{
     text-align: center;
-
 }
-
 .social-networks li{
     display: inline;
 }
-
 .social-networks i{
     font-size: 160%;
     margin: 1%;
@@ -228,7 +204,7 @@ footer{
     width: 100%;
 }
 
-/* form */
+/*----- form -----*/
 
 .form-section {
     clear: both;
@@ -326,13 +302,20 @@ footer{
     #menu{
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 5px; 
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: 16px;
     }
-
+    #menu li {
+        margin-right: 15px;
+    }
+    #logo{
+        margin-left: 10px;
+    }
     #cover-text{
         left:0px;
+        font-size: 115%;
     }
 
     #club-ethos{
@@ -358,10 +341,27 @@ footer{
     #photo{
         column-count: 3;
     }
+    #circle-container{
+        width: 280px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .text-input {
+        margin: 5px;
+    }
+    .signup-form {
+        left:5%;
+    }
 }
 
 @media screen and (max-width: 800px){
     #photo{
         column-count: 2;
+    }
+}
+@media screen and (max-width: 320px){
+    #circle-container{
+        width: 200px;
+        height: 200px;
     }
 }
