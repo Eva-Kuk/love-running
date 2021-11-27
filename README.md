@@ -4,13 +4,21 @@
 
 A live demo can be found https://eva-kuk.github.io/love-running/
 
-### Overview
+
 HOME PAGE
+
 ![home page Am I responsive](/assets/images/love-running-home.png)
+
 GELLERY PAGE
+
 ![gallery page Am I responsive](/assets/images/love-running-gallery.png)
+
 SING UP PAGE
+
 ![home page](/assets/images/love-running-signup.png)
+
+### Overview
+
 - A first responsive website built entirely using HTML and CSS as a  part of Code Institute course walkthrough project . 
 It is build a fully responsive website that showcases the features of HTML5 and CSS
 that I have build on the course. 
